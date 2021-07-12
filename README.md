@@ -21,7 +21,7 @@ npm start
 #### <img src="https://github.com/Lukway-developer/Logos/blob/master/sass.svg" title="Sass Logo" height=20/> Sass
 #### <img src="https://github.com/Lukway-developer/Logos/blob/master/js.svg" title="JavaScript Logo" height=20/> JavaScript
 #### <img src="https://github.com/Lukway-developer/Logos/blob/master/react.svg" title="React Logo" height=20/> React
-#### <img src="https://github.com/Lukway-developer/Logos/blob/master/webpack.svg" title="Spotify Logo" height=20/> Spotify API
+#### <img src="https://github.com/Lukway-developer/Logos/blob/master/webpack.svg" title="Spotify Logo" height=20/> Webpack
 
 
 ### `About Lucas Ojeda`

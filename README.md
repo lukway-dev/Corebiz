@@ -1,4 +1,4 @@
-# Lucas Ojeda - Corebiz Prueba Frontend <img src="https://github.com/Lukway-developer/Corebiz/src/assets/images/corebiz-logo.svg" title="Corebiz Logo" height=20/> Corebiz
+# Lucas Ojeda - Corebiz Prueba Frontend <img src="https://github.com/lukway-dev/Corebiz/blob/master/src/assets/images/corebiz-logo(white).svg" title="Corebiz Logo" height=20/> Corebiz
 
 Hola, esta es la documentación para esta prueba.
 

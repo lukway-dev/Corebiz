@@ -1,4 +1,4 @@
-# Lucas Ojeda - Corebiz Prueba Frontend <img src="https://github.com/lukway-dev/Corebiz/blob/master/src/assets/images/corebiz-logo(white).svg" title="Corebiz Logo" height=20/> Corebiz
+# Lucas Ojeda - Corebiz Prueba Frontend <img src="https://github.com/lukway-dev/Corebiz/blob/master/src/assets/images/corebiz-logo(white).svg" title="Corebiz Logo" height=40/>
 
 Hola, esta es la documentación para esta prueba.
 
@@ -13,7 +13,7 @@ Correr el proyecto
 npm start
 ```
 
-## Content
+## Tecnologías
 
 **Este proyecto fue hecho con:**
 #### <img src="https://github.com/Lukway-developer/Logos/blob/master/html.svg" title="HTML Logo" height=20/> HTML
@@ -24,7 +24,7 @@ npm start
 #### <img src="https://github.com/Lukway-developer/Logos/blob/master/webpack.svg" title="Spotify Logo" height=20/> Webpack
 
 
-### `About Lucas Ojeda`
+### Sobre Lucas Ojeda
 
 #### Website: https://www.lukway.site/
 #### Email: lukway.developer@gmail.com

@@ -1,0 +1,85 @@
+$white-1: #FFFFFF;
+$white-2: #F2F2F2;
+$white-3: #E6E8EA;
+$gray-1: #BDBDBD;
+$gray-2: #7A7A7A;
+$gray-3: #585858;
+$black-1: #000000;
+$black-2: #333333;
+$red: #F8475F;
+
+//Regular
+$font-nunito-400-13px: 400 13px Nunito, sans-serif;
+$font-nunito-400-12px: 400 12px Nunito, sans-serif;
+$font-nunito-400-11px: 400 11px Nunito, sans-serif;
+
+//Semibold
+$font-nunito-600-12px: 600 12px Nunito, sans-serif;
+
+//Bold
+$font-nunito-700-30px: 700 30px Nunito, sans-serif;
+$font-nunito-700-24px: 700 24px Nunito, sans-serif;
+$font-nunito-700-20px: 700 20px Nunito, sans-serif;
+$font-nunito-700-18px: 700 18px Nunito, sans-serif;
+$font-nunito-700-12px: 700 12px Nunito, sans-serif;
+$font-nunito-700-10px: 700 10px Nunito, sans-serif;
+$font-lato-700-26px: 700 26px Lato, sans-serif;
+$font-lato-700-14px: 700 14px Lato, sans-serif;
+$font-lato-700-12px: 700 12px Lato, sans-serif;
+
+//Black
+$font-nunito-900-48px: 900 48px Nunito, sans-serif;
+$font-nunito-900-32px: 900 32px Nunito, sans-serif;
+$font-nunito-900-20px: 900 20px Nunito, sans-serif;
+$font-nunito-900-16px: 900 16px Nunito, sans-serif;
+$font-lato-900-22px: 900 22px Lato, sans-serif;
+
+
+// nunito-400
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src:url('../assets/fonts/nunito-v16-latin-regular.woff2') format('woff2'),
+      url('../assets/fonts/nunito-v16-latin-regular.woff') format('woff')
+}
+// nunito-600
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  src:url('../assets/fonts/nunito-v16-latin-600.woff2') format('woff2'),
+      url('../assets/fonts/nunito-v16-latin-600.woff') format('woff')
+}
+// nunito-700
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src:url('../assets/fonts/nunito-v16-latin-700.woff2') format('woff2'),
+      url('../assets/fonts/nunito-v16-latin-700.woff') format('woff')
+}
+// nunito-900
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  src:url('../assets/fonts/nunito-v16-latin-900.woff2') format('woff2'),
+      url('../assets/fonts/nunito-v16-latin-900.woff') format('woff')
+}
+//* lato-700
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src:url('../assets/fonts/lato-v17-latin-700.woff2') format('woff2'),
+      url('../assets/fonts/lato-v17-latin-700.woff') format('woff')
+}
+//* lato-900
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src:url('../assets/fonts/lato-v17-latin-900.woff2') format('woff2'),
+      url('../assets/fonts/lato-v17-latin-900.woff') format('woff')
+}

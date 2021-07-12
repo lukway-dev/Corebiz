@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  color: $black-1;
+  font: $font-nunito-400-13px;
+  position: relative;
+}
+
+button{
+  border: unset;
+  padding: unset;
+  background: unset;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+
+input{
+  transition: background-color .2s;
+}

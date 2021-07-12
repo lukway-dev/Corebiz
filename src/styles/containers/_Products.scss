@@ -1,0 +1,17 @@
+.product{
+  padding: 0 20px 50px;
+  &__caption{
+    display: inline-block;
+    font: $font-nunito-900-20px;
+    position: relative;
+    &:after{
+      content: "";
+      width: 50%;
+      height: 4px;
+      background: $gray-2;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+}

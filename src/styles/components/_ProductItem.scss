@@ -1,0 +1,107 @@
+.product-item{
+  width: 220px;
+  height: 370px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $gray-2;
+  position: relative;
+  &:hover{
+    background: $white-3;
+    .product-item__button{
+      visibility: visible;
+    }
+  }
+  &__image{
+    width: 100%;
+  }
+  &__name{
+    margin: 5px 0;
+    font: $font-nunito-600-12px;
+  }
+  &__stars-container{
+    display: grid;
+    grid-template-columns: repeat(5, 10px);
+    gap: 3px;
+    font-size: 10px;
+    color: $red;
+  }
+  &__price{
+    margin: 5px 0;
+    color: $black-1;
+    font: $font-nunito-700-18px;
+    &--old{
+      margin: 10px 0 0;
+      font: $font-nunito-400-12px;
+    }
+  }
+  &__sale-poster{
+    width: 80px;
+    height: 80px;
+    padding: 12px 8px;
+    background: conic-gradient(from 90deg at 0% 0%, $red 45deg, transparent 45deg 360deg);
+    color: $white-1;
+    font: $font-nunito-900-16px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  &__installments{
+    font: $font-nunito-400-11px;
+  }
+  &__button{
+    visibility: hidden;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 8px 30px;
+    background: $black-1;
+    color: $white-1;
+    font: $font-nunito-700-12px;
+    position: absolute;
+    bottom: 20px;
+    animation: appear .2s ease-out;
+    &:hover{
+      opacity: .8;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .product-item{
+    width: 160px;
+    height: 300px;
+    &:hover{
+      background: $white-1;
+      .product-item__button{
+        visibility: visible;
+      }
+    }
+    &__button{
+      visibility: visible;
+      width: 100%;
+      margin-top: 8px;
+      border-radius: 5px;
+      padding: 8px 30px;
+      background: $black-1;
+      color: $white-1;
+      font: $font-nunito-700-12px;
+      bottom: 0;
+      animation: appear .2s ease-out;
+      &:hover{
+        opacity: .8;
+      }
+    }
+  }
+}
+
+@keyframes appear {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

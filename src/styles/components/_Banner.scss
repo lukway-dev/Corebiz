@@ -1,0 +1,79 @@
+.banner{
+  height: 430px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  &__text{
+    width: 100%;
+    height: 100%;
+    background: $black-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: $white-1;
+    &--title{
+      margin: 0 0 0 20px;
+      font: $font-nunito-900-48px;
+    }
+    &--caption{
+      margin: 0 0 1rem 20px;
+      font: $font-nunito-700-30px;
+    }
+  }
+  &__image{
+    width: 50%;
+    height: 100%;
+  }
+  &__counter-container{
+    width: 76px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: calc(50% - 38px);
+    bottom: 35px;
+  }
+  &__counter{
+    font-size: 10px;
+    color: $gray-1;
+    &--active{
+      @extend .banner__counter;
+      color: $red;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .banner{
+    height: 300px;
+    margin-top: 35px;
+    &__text{
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(rgba($color: #000000, $alpha: .5), $black-1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: left;
+      color: $white-1;
+      z-index: 5;
+      &--title{
+        font: $font-nunito-900-32px;
+      }
+      &--caption{
+        font: $font-nunito-700-24px;
+      }
+    }
+    &__image{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

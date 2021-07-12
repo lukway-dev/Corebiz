@@ -1,0 +1,77 @@
+.header{
+  height: 80px;
+  padding: 0 20px;
+  background: $white-1;
+  box-shadow: 0 0px 15px rgba($color: #000000, $alpha: .4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99998;
+  &__menu-button{
+    display: none;
+  }
+  &__logo{
+    height: 40px;
+  }
+  &__buttons{
+    display: flex;
+  }
+  &__user{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $gray-2;
+    &:hover{
+      opacity: .7;
+    }
+    &--icon{
+      margin-right: 5px;
+      color: $black-1;
+      font-size: 18px;
+    }
+  }
+  &__cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &:hover{
+      opacity: .6;
+    }
+    &--icon{
+      margin-right: 4px;
+      font-size: 18px;
+    }
+    &--amount{
+      width: 14px;
+      height: 14px;
+      border-radius: 100%;
+      background: $red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $white-1;
+      font: $font-nunito-700-10px;
+    }
+  }
+  i{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header{
+    &__logo{
+      height: 30px;
+    }
+    &__menu-button{
+      display: block;
+    }
+    &__user{
+      display: none;
+    }
+  }
+}

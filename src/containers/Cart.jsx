@@ -26,7 +26,7 @@ const Cart = ({handleShowCart}) => {
           ? <div className="cart__item-container">
               {
                 buyProducts.map(product =>
-                  <div className="cart__item">
+                  <div className="cart__item" key={product.productId}>
                     <button className="cart__item-delete" onClick={() => {handleDeleteProduct(product.productId)}}>
                       <i className="fas fa-times" />
                     </button>
@@ -39,7 +39,7 @@ const Cart = ({handleShowCart}) => {
         }
 
         {buyProducts.length > 0
-          ? <button className="cart__button"><i class="fas fa-dollar-sign" /> PAGAR</button>
+          ? <button className="cart__button"><i className="fas fa-dollar-sign" /> PAGAR</button>
           : <button className="cart__button" onClick={handleShowCart}>Ver Productos</button>
         }
       </div>
